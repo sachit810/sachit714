@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+       <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+
+    <title>Online Book Store</title>
+    <style>
+        .nav1 {
+            padding: 18px;
+        }
+
+        .anker {
+            font-size: 35px;
+        }
+
+        form {
+            position: absolute;
+            top: 20px;
+            right: 5px;
+            font-size: 20px;
+        }
+
+        .nav-item {
+            padding: 8px;
+            margin-right: 45px;
+        }
+
+        .list {
+            font-size: 28px;
+        }
+
+        .con {
+            width: 100%;
+            height: 1200px;
+            background: url(back2.jpg) center center no-repeat;
+            background-size: cover;
+            border: 3px solid black;
+            position: relative;
+        }
+
+        .para {
+            color: rgb(221, 208, 208);
+            margin-top: 14%;
+            text-align: center;
+            font-size: 75px;
+            letter-spacing: -0.03em;
+            line-height: 1.2em;
+            font-family: 'Oswald', sans-serif;
+            background: rgba(1, 1, 1, 0.6)
+        }
+
+        .shop {
+            background-color: pink;
+            margin-top: 0px auto;
+            text-align: center;
+            width: 100%;
+            border: 3px solid black;
+            position: absolute;
+            font-size: 95px;
+            letter-spacing: -0.05em;
+            line-height: 1.6em;
+            color: black;
+        }
+
+        .con3 {
+            position: absolute;
+            margin-top: 10%;
+        }
+
+        .navy {
+            position: absolute;
+            margin-top: 70%;
+            width: 100%;
+            padding: 30px;
+        }
+        /*  background:rgba(1,1,1,0.6);
+           position:fixed;
+           display:block;
+           margin-top:400px;
+           margin-left:400px;
+           line-height:200px;
+           text-align:center;
+           color:white;
+           font-family: 'Oswald', sans-serif; */
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary nav1">
+        <a class="navbar-brand anker" href="#">
+            <img src="logo2.png" width="72" height="70" class="d-inline-block align-top" alt="books"> ONLINE BOOK STORE</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-info my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto list">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="About us.html">ABOUT US</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">CATEGORY</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="cart.html">CART</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="login.html">LOGIN/SIGNUP</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="feedback.html">FEEDBACK</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid con">
+        <h1 class="para">BESTSELLER BOOKS</h1>
+    </div>
+    <div class="container-fluid ">
+        <h1 class="shop">SHOP NOW</h1>
+
+
+    </div>
+
+    <div class="container-fluid con3">
+        <div class="row border">
+            <div class="col-md-4">
+                <div class="card text-white bg-info">
+                    <img width="30%px" height="800px" src="card1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a href="#" type="button" class="btn btn-danger btn-lg">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-white bg-warning">
+                    <img width="30%" height="800px" src="card1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a href="#" type="button" class="btn btn-danger btn-lg">Read more</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-white bg-success">
+                    <img width="30%" height="800px" src="card1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a href="#" type="button" class="btn btn-danger btn-lg">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navy">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto list">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">TERMS<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">CONDITIONS</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">PRIVACY</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">CONTACT US</a>
+                </li>
+
+
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+
+</body>
+
+</html>
